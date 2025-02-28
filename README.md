@@ -36,11 +36,16 @@ training, and real-time object detection from various sources (camera, images, e
 
 ## Installation
 Open terminal
+
 1- $ git clone https://github.com/Grhanas/easyAI.git
+
 2- $ pip install -r requirements.txt
+
 3- $ python main.py
 
 ## Usage
 1- Open the application
+
 2- Select YOLO model and video file (There are default video and model file)
+
 3- Run object detection and see the results live!
