@@ -16,6 +16,8 @@ This is YOLO:
 YOLO (You Look Only Once) is a real-time object detection algorithm that quickly identifies
 
 and classifies multiple objects in images or videos in a single pass.
+
+
 ![image](https://github.com/user-attachments/assets/9fb3deb8-9f0b-4086-b155-e2cfd6d85058)
 
 
