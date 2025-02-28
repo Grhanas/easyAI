@@ -3,7 +3,7 @@ User-friendly YOLO application
 
 Python 3.13.2
 
-## What is YOLO and What makes easyAI, easy ?
+## 📖What is YOLO and What makes easyAI, easy ?
 This is a desktop application that allows users to run YOLO object detection on videos easily.
 
 The application lets you select any YOLO model and any video file from your computer.
