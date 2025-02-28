@@ -12,7 +12,8 @@ The next versions of tthis application will include annotation tools, YOLO model
 
 training, and real-time object detection from various sources (camera, images, etc.)
 
-This is YOLO:
+
+
 YOLO (You Look Only Once) is a real-time object detection algorithm that quickly identifies
 
 and classifies multiple objects in images or videos in a single pass.
