@@ -3,7 +3,7 @@ User-friendly YOLO application
 
 Python 3.13.2
 
-## 📖What is YOLO and What makes easyAI, easy ?
+## 📖 What is YOLO and What makes easyAI, easy ?
 This is a desktop application that allows users to run YOLO object detection on videos easily.
 
 The application lets you select any YOLO model and any video file from your computer.
@@ -44,7 +44,7 @@ and classifies multiple objects in images or videos in a single pass.
 - Train custom YOLO models directly from the app.
 - Manage datasets and training parameters.
 
-## ⬇️Installation
+## ⬇️ Installation
 Open terminal
 
 1- $ git clone https://github.com/Grhanas/easyAI.git
@@ -53,7 +53,7 @@ Open terminal
 
 3- $ python main.py
 
-## 🖱️Usage
+## 🖱️ Usage
 1- Open the application
 
 2- Select YOLO model and video file (There are default video and model file)
