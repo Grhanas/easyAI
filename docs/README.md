@@ -1,4 +1,4 @@
-# easyAI
+# :sparkles: easyAI
 User-friendly YOLO application
 
 Python 3.13.2
