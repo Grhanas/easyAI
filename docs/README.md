@@ -22,7 +22,7 @@ and classifies multiple objects in images or videos in a single pass.
 ![image](https://github.com/user-attachments/assets/9fb3deb8-9f0b-4086-b155-e2cfd6d85058)
 
 
-## Features
+## :heart: Features
 ### Current Features
 - Run YOLO on videos.
 
@@ -30,7 +30,7 @@ and classifies multiple objects in images or videos in a single pass.
 
 - Display results within the application.
 
-## Upcoming Features
+## 🚀 Upcoming Features
 ### Annotation Tool
 - Manuelly label images for YOLO training.
 - Edit and organize annotations easily.
@@ -44,7 +44,7 @@ and classifies multiple objects in images or videos in a single pass.
 - Train custom YOLO models directly from the app.
 - Manage datasets and training parameters.
 
-## Installation
+## ⬇️Installation
 Open terminal
 
 1- $ git clone https://github.com/Grhanas/easyAI.git
@@ -53,7 +53,7 @@ Open terminal
 
 3- $ python main.py
 
-## Usage
+## 🖱️Usage
 1- Open the application
 
 2- Select YOLO model and video file (There are default video and model file)
