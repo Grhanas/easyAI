@@ -2,6 +2,9 @@
 User-friendly YOLO application
 Python 3.13.2
 
+## What is YOLO and What makes easyAI, easy ?
+
+
 
 ## How to work ?
 
@@ -14,5 +17,4 @@ Python 3.13.2
 4- open terminal and write $ pip install -r requirements.txt
 
 5- work main.py
-
 
