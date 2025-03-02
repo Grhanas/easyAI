@@ -53,7 +53,9 @@ Open terminal
 
 3- $ pip install -r requirements.txt
 
-4- $ python main.py
+4- Go to 'src' folder: easyAI -> src ($ cd easyAI/src)
+
+5- $ python main.py
 
 ## 🖱️ Usage
 1- Open the application
