@@ -49,9 +49,11 @@ Open terminal
 
 1- $ git clone https://github.com/Grhanas/easyAI.git
 
-2- $ pip install -r requirements.txt
+2- Go to downloaded folder: easyAI -> config ($ cd easyAI/config)
 
-3- $ python main.py
+3- $ pip install -r requirements.txt
+
+4- $ python main.py
 
 ## 🖱️ Usage
 1- Open the application
