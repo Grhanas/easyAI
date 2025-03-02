@@ -57,6 +57,14 @@ Open terminal
 
 5- $ python main.py
 
+OR 🔗🔗🔗🥇
+
+You can just download the application from this link and double click to open:
+
+https://drive.google.com/file/d/1DdLtTTaG_TCmMWsUbtWDsiwD77xTmPCR/view?usp=sharing
+
+
+
 ## 🖱️ Usage
 1- Open the application
 
