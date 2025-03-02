@@ -49,7 +49,7 @@ Open terminal
 
 1- $ git clone https://github.com/Grhanas/easyAI.git
 
-2- Go to downloaded folder: easyAI -> config ($ cd easyAI/config)
+2- Go to 'config' folder: easyAI -> config ($ cd easyAI/config)
 
 3- $ pip install -r requirements.txt
 
