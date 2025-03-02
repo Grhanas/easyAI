@@ -12,7 +12,7 @@ else:
     base_path = os.getcwd()
 
 default_video_path = os.path.join(base_path, 'car.mp4')
-default_model_path = os.path.join(base_path, 'yolov11s.pt')
+default_model_path = os.path.join(base_path, 'yolo11s.pt')
 
 class ButtonHandler:
     """
