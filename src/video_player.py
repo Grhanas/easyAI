@@ -59,16 +59,16 @@ class VideoPlayer:
         Inputs: self
         Returns: processed frame
         """
-
         try:
             if self.cap and self.cap.isOpened():
                 ret, frame = self.cap.read()
+                
                 if ret:
                     frame = self.yolo_processor.process_frame(frame)  # YOLO çerçeveyi işlesin
+                    
                     # Eğer çerçeve BGR ise RGB'ye çevir
                     if frame.shape[2] == 3:
                         frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-                    
 
                     # QLabel boyutunu alın
                     label_width = self.label.width()
@@ -77,7 +77,6 @@ class VideoPlayer:
                     # Çerçeveyi QLabel'e uygun şekilde yeniden boyutlandırın
                     frame = cv2.resize(frame, (label_width, label_height))
                     height, width, _ = frame.shape
-                    
 
                     # PySide6 için QImage oluştur
                     q_img = QImage(frame.data, width, height, frame.strides[0], QImage.Format.Format_RGB888)
@@ -97,11 +96,16 @@ class VideoPlayer:
                     self.label.setPixmap(pixmap)  # Yeni çerçeveyi QLabel'e bas
 
                 else:
-                    print("⚠️ Video finihed or error occurs")
-                    self.cap.release()
-                    self.timer.stop()
+                    print("🔁 Video bitti, yeniden başlatılıyor...")
+                    self.cap.set(cv2.CAP_PROP_POS_FRAMES, 0)  # Videoyu başa sar
+                    return  # Hata gibi algılanmaması için return ekledik
+
+            else:
+                raise Exception("❌ Video dosyası açılamıyor!")  # Dosya hatasını except'e düşür
+
         except Exception as e:
             print('Error in VideoPlayer update_frame:', e)
+            print("❌ Video oynatılamıyor! Dosya bozuk veya eksik olabilir.")
 
     def stop_video(self):
         """
