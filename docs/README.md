@@ -8,9 +8,7 @@ This is a desktop application that allows users to run YOLO object detection on 
 
 The application lets you select any YOLO model and any video file from your computer.
 
-The next versions of tthis application will include annotation tools, YOLO model
-
-training, and real-time object detection from various sources (camera, images, etc.)
+The next versions of this application will include annotation tools, YOLO model training, and real-time object detection from various sources (camera, images, etc.)
 
 -
 
